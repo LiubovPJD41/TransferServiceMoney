@@ -6,7 +6,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import ru.Polyaeva.TransferServiceMoney.models.Operation;
-import ru.Polyaeva.TransferServiceMoney.repository.OperationRepositoryImpl;
+import ru.Polyaeva.TransferServiceMoney.repository.OperationRepositorylmpl;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
@@ -14,9 +14,9 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 public class MoneyTransferServiceTest {
     @Mock
-    private OperationRepositoryImpl operationRepositoryImpl;
+    private OperationRepositorylmpl operationRepositoryImpl;
     @InjectMocks
-    private MoneyTransferServiceImpl moneyTransferService;
+    private MoneyTransferServicelmpl moneyTransferService;
 
     @Test
     void proceedOperationTest() {

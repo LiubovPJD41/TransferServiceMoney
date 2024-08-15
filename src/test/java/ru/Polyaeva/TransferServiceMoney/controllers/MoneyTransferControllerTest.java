@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import ru.Polyaeva.TransferServiceMoney.models.ConfirmOperation;
 import ru.Polyaeva.TransferServiceMoney.models.Operation;
 import ru.Polyaeva.TransferServiceMoney.models.Response;
-import ru.Polyaeva.TransferServiceMoney.service.MoneyTransferServiceImpl;
+import ru.Polyaeva.TransferServiceMoney.service.MoneyTransferServicelmpl;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.*;
@@ -17,7 +17,7 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 public class MoneyTransferControllerTest {
     @Mock
-    private MoneyTransferServiceImpl moneyTransferService;
+    private MoneyTransferServicelmpl moneyTransferService;
 
     @InjectMocks
     private MoneyTransferController moneyTransferController;

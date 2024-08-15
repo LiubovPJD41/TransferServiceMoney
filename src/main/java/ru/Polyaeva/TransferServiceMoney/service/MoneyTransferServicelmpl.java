@@ -6,10 +6,14 @@ import ru.Polyaeva.TransferServiceMoney.models.Operation;
 import ru.Polyaeva.TransferServiceMoney.repository.OperationRepository;
 
 @Service
-public class MoneyTransferServiceImpl implements MoneyTransferService {
-    private final OperationRepository operationRepository;
+public class MoneyTransferServicelmpl implements MoneyTransferService {
+    private OperationRepository operationRepository;
 
-    public MoneyTransferServiceImpl(OperationRepository operationRepository) {
+    public void MoneyTransferServiceImpl(OperationRepository operationRepository) {
+        this.operationRepository = operationRepository;
+    }
+
+    public MoneyTransferServicelmpl(OperationRepository operationRepository) {
         this.operationRepository = operationRepository;
     }
 

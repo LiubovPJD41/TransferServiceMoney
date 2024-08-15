@@ -1,5 +1,4 @@
 package ru.Polyaeva.TransferServiceMoney.repository;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,12 +8,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.mock;
 
-public class OperationRepositoryImplTest {
-    private OperationRepositoryImpl operationRepositoryImpl;
+public class OperationRepositorylmplTest {
+    private OperationRepositorylmpl operationRepositoryImpl;
 
     @BeforeEach
     void setUp() {
-        operationRepositoryImpl = new OperationRepositoryImpl();
+        operationRepositoryImpl = new OperationRepositorylmpl();
     }
 
     @Test
