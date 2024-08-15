@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 @SpringBootApplication
 public class MoneyTransferServiceApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(MoneyTransferServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MoneyTransferServiceApplication.class, args);
+    }
 }
